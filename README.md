@@ -1,17 +1,32 @@
-## Running React on Replit
+# My Personal Portfolio Built in React.js, Three.js and Framer Motion
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+## Description
+This is my personal portfolio website, showcasing my skills, projects, and experiences as a software engineer. The website is built using modern web technologies React, Three.js, Vite, Tailwind CSS, and is designed to be responsive and accessible across different devices and screen sizes.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+## Features
+- **Home**: An introduction section with a brief bio and a call-to-action button.
+- **About**: Detailed information about my background, interests, and journey into web development.
+- **Skills**: A section highlighting my technical skills, including programming languages, frameworks, and tools.
+- **Projects**: A showcase of my recent projects, with descriptions, technologies used, and live demos (if applicable).
+- **Experience**: A timeline of my professional experience and achievements.
+- **Contact**: A contact form for visitors to get in touch with me.
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+## Technologies Used
+- **Front-end**: HTML5, CSS3, JavaScript, React.js, Three.js, Framer motion
+- **Styling**:Tailwind CSS
+- **Build Tools**: Rollup
+- **Version Control**: Git, GitHub
+- **Deployment**: Github Pages
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+## Installation
+1. Clone the repository: `git clone https://github.com/itsaakashpatel/portfolio.git`
+2. Navigate to the project directory: `cd portfolio`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open `http://localhost:3000` in your browser.
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+## Deployment
+The website is deployed and hosted on [Github Pages](https://itsaakashpatel.github.io/portfolio/).
 
-### Typescript
-
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+## License
+This project is licensed under the [MIT License](LICENSE).
